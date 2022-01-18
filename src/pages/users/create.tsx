@@ -12,9 +12,9 @@ export default function CreateUser() {
 				<Sidebar />
 
 				<Box flex="1" borderRadius={8} bg="gray.800" p="8">
-					<Heading size="lg" fontweight="normal">create user</Heading>
+					<Heading size="lg" fontWeight="normal">create user</Heading>
 
-					<Divider my="6" bordeColo="gray.700" />
+					<Divider my="6" borderColor="gray.700" />
 
 					<VStack spacing="8">
 						<SimpleGrid minChildWidth="240px" spacing="8" w="100%">
@@ -35,7 +35,7 @@ export default function CreateUser() {
 						</HStack>
 					</Flex>
 				</Box>
-			</Flex>
-		</Box>
+			</ Flex>
+		</ Box>
 	);
 }
