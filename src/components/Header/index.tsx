@@ -34,7 +34,6 @@ export const Header = () => {
 					mr="2"
 					mt={["2","3"]}
 				>
-
 				</IconButton>
 			)}
 
