@@ -48,6 +48,7 @@ export const makeServer = () => {
 					{ users }
 				)
 			});
+			this.get('/users/:id');
 			this.post('/users');
 
 			this.namespace = ''; // it is necessary because of the api from next
